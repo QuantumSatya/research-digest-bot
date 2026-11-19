@@ -8,4 +8,7 @@ repository-code: "https://github.com/QuantumSatya/research-digest-bot"
 authors:
   - family-names: "Patil"
     given-names: "Satyajeet"
+    affiliation: "CAPADS, Faculty of Nuclear Sciences and Physical Engineering, Czech Technical University in Prague"
+  - name: "CAPADS – Center of Applied Physics and Advanced Detection Systems, Faculty of Nuclear Sciences and Physical Engineering, Czech Technical University in Prague"
+    website: "https://capads.fjfi.cvut.cz/home"
 keywords: [arXiv, literature monitoring, research digest, RSS, photonics]

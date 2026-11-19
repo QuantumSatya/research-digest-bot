@@ -9,6 +9,9 @@ with titles, authors, abstracts and clickable links. It can also email you when 
 It runs quietly in the background on your own computer, uses **only the Python standard library**
 (nothing to `pip install`), and keeps all your data local.
 
+> Developed at **[CAPADS – Center of Applied Physics and Advanced Detection Systems](https://capads.fjfi.cvut.cz/home)**,
+> Faculty of Nuclear Sciences and Physical Engineering, Czech Technical University in Prague.
+
 ![Example report](docs/example_report.png)
 
 ---
@@ -103,6 +106,12 @@ server if you enable email. Your personal files (`config.ini`, `keywords.txt`, `
 `filters.txt`) are in `.gitignore`, so they are never committed.
 
 ## Acknowledgements
+
+This project was developed within the
+[CAPADS group](https://capads.fjfi.cvut.cz/home) (Center of Applied Physics and Advanced Detection
+Systems) at the Faculty of Nuclear Sciences and Physical Engineering, Czech Technical University in
+Prague. If the bot is useful to you, please cite it (see [CITATION.cff](CITATION.cff)), which gives credit to the
+whole group.
 
 Thank you to arXiv for use of its open access interoperability. This project is not affiliated with
 arXiv or with any publisher. Please respect the
