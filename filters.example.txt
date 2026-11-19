@@ -1,0 +1,10 @@
+# Topic filter – applied on top of keywords.txt to keep results in your field.
+# Every article must pass BOTH rules. Delete a line (or this file) to switch a rule off.
+#
+# 1) arXiv only: paper must be listed or cross-listed in one of these categories.
+#    Full list: https://arxiv.org/category_taxonomy
+categories: quant-ph, physics.optics, physics.ins-det, physics.app-ph, physics.atom-ph, astro-ph.IM
+
+# 2) arXiv + journals: title or abstract must contain at least one of these words
+#    (plurals are matched automatically for journal feeds).
+must_mention: photon, photons, photonic, photonics, biphoton, light, optical, optics, laser, lasers

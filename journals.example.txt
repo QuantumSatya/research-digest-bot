@@ -1,0 +1,39 @@
+# Journal feeds checked on every run; new articles are filtered by keywords.txt + filters.txt.
+# Format:  Journal name | RSS/Atom feed URL        Lines starting with # are switched off.
+# Physics / optics examples – add the feeds of journals in your own field.
+
+# --- Nature portfolio ---------------------------------------------------
+Nature | https://www.nature.com/nature.rss
+Nature Photonics | https://www.nature.com/nphoton.rss
+Nature Physics | https://www.nature.com/nphys.rss
+Nature Communications | https://www.nature.com/ncomms.rss
+npj Quantum Information | https://www.nature.com/npjqi.rss
+Light: Science & Applications | https://www.nature.com/lsa.rss
+Communications Physics | https://www.nature.com/commsphys.rss
+
+# --- Science ------------------------------------------------------------
+Science | https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science
+Science Advances | https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciadv
+
+# --- APS (Physical Review) ----------------------------------------------
+Physical Review Letters | https://feeds.aps.org/rss/recent/prl.xml
+PRX Quantum | https://feeds.aps.org/rss/recent/prxquantum.xml
+Physical Review X | https://feeds.aps.org/rss/recent/prx.xml
+Physical Review A | https://feeds.aps.org/rss/recent/pra.xml
+Physical Review Applied | https://feeds.aps.org/rss/recent/prapplied.xml
+Physical Review Research | https://feeds.aps.org/rss/recent/prresearch.xml
+
+# --- Optica Publishing Group --------------------------------------------
+Optica | https://opg.optica.org/rss/optica_feed.xml
+Optica Quantum | https://opg.optica.org/rss/opticaq_feed.xml
+Optics Express | https://opg.optica.org/rss/opex_feed.xml
+Optics Letters | https://opg.optica.org/rss/ol_feed.xml
+Photonics Research | https://opg.optica.org/rss/prj_feed.xml
+JOSA B | https://opg.optica.org/rss/josab_feed.xml
+
+# --- Other quantum / photonics journals ---------------------------------
+Quantum | https://quantum-journal.org/feed/
+New Journal of Physics | https://iopscience.iop.org/journal/rss/1367-2630
+Quantum Science and Technology | https://iopscience.iop.org/journal/rss/2058-9565
+Laser & Photonics Reviews | https://onlinelibrary.wiley.com/feed/18638899/most-recent
+ACS Photonics | https://pubs.acs.org/action/showFeed?type=axatoc&feed=rss&jc=apchd5

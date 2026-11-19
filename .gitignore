@@ -1,0 +1,14 @@
+# personal settings and lists (created from the *.example.* files on first run)
+config.ini
+keywords.txt
+journals.txt
+filters.txt
+# output, if you point output_dir inside the repo
+Report_*.pdf
+_state/
+# python
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+.idea/

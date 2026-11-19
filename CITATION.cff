@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Research Digest Bot"
+version: 1.0.0
+date-released: 2026-11-19
+license: MIT
+repository-code: "https://github.com/QuantumSatya/research-digest-bot"
+authors:
+  - family-names: "Patil"
+    given-names: "Satyajeet"
+keywords: [arXiv, literature monitoring, research digest, RSS, photonics]

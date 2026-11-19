@@ -1,0 +1,33 @@
+# Keywords – one search per line. Lines starting with # are ignored.
+#
+#   plain text            exact phrase, searched in title, abstract, authors, comments
+#   A AND B               both must appear            (use ONE kind of operator per line)
+#   A OR B                either may appear
+#   A ANDNOT B            A but not B
+#   au:Surname            author search  (combine:  au:Smith AND au:Jane)
+#   ti:word               title only     (e.g.  ti:review AND single photon)
+#
+# The example below is for photonics / quantum optics. Replace it with your own field.
+# Run  python3 digest.py --show-queries  to see the exact arXiv queries.
+
+# --- Topics ---------------------------------------------------------------
+quantum imaging
+ghost imaging
+imaging with entangled photons
+quantum imaging with undetected photons
+single photon AND SPAD
+time tagging AND camera
+Hanbury Brown-Twiss
+Hong-Ou-Mandel AND spectrally resolved
+intensity interferometry AND single photon
+photon-number-resolving
+single-photon source
+QKD OR quantum key distribution
+
+# --- Reviews and tutorials ------------------------------------------------
+ti:review AND quantum optics
+ti:tutorial AND photon
+
+# --- Authors (examples – follow the people you care about) ----------------
+# au:Padgett
+# au:Pan AND au:Jian
